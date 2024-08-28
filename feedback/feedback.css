@@ -1,0 +1,117 @@
+/*
+    Name        :     R.P.K.S.Weerachandra
+    Student ID  :     20221778 / w1985469
+    Role        :     Student 2
+*/
+
+@import url(/student-2/common.css);
+
+/* HEADING SECTION */
+.top-section {
+    width: 100%;
+    height: 400px; 
+    background-image: url(../images/feedbackpage-bg.jpg); 
+    background-size: cover; 
+    background-attachment: fixed;
+    background-position: center bottom ; 
+    background-repeat: no-repeat;
+    position: relative;
+}
+.top-section::before {
+    content: "";
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    background: rgba(0, 0, 0, 0.7) linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0));
+}
+.top-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; 
+    line-height: 60px;
+    text-align: center;
+}
+.top-content h1 {
+    font-size: 50px;
+}
+.top-content h2{
+    font-size: 30px;
+}
+
+/* FORM SECTION */
+.feedbackform{
+    width: 1200px;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 20px;
+    color: var(--main-color-2);
+    font-size: 22px;
+}
+.user-details{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid var(--main-color-3);
+    padding: 20px;
+    border-radius: 20px;
+}
+.questions{
+    border: 2px solid var(--main-color-3);
+    padding: 20px;
+    border-radius: 20px;
+    margin: 25px auto;
+    text-align: center;
+}
+.questions sup{
+   color: red;
+   font-weight: 100;
+   font-size: 15px;
+}
+.questions input[type="radio"]{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.submit-btn{
+    text-align: center;
+}
+
+#name,#email{
+    border: 2px solid var(--main-color-3);
+    width: 300px;
+    padding: 10px;
+    border-radius: 20px;
+    font-family: var(--font-family-2);
+    font-size: 15px;
+}
+#reason{
+    border: 2px solid var(--main-color-3);
+    border-radius: 10px;
+    font-family: var(--font-family-2);
+    font-size: 15px;
+}
+#que3ans{
+    border: 2px solid var(--main-color-3);
+    width: 200px;
+    padding: 10px;
+    border-radius: 20px;
+    font-family: var(--font-family-2);
+    font-size: 15px;
+}
+
+/* POPUP MESSAGE SECTION */
+#success{
+    position: fixed;
+    display: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    margin: 5px auto;
+    text-align: center;
+    background-color: var(--main-color-3);
+    color:var(--main-color-2);
+    padding: 10px;
+    border-radius: 20px;
+    z-index: 1000;
+}
+
