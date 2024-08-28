@@ -1,0 +1,192 @@
+
+/* Global CSS reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./images/GR_1.png);
+    background-size: cover;
+    background-position: center bottom;
+}
+
+/* Styling for the start screen */
+.start-screen{        
+    top: 0;
+    padding-top: 160px;
+    padding-bottom: 100px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+}
+
+.start-screen .info-box{  
+    width: 650px;
+    background-color: var(--main-color-4);
+    border-radius: 5px;
+    padding: 30px;  
+    color: var(--main-color-2);
+    border: 3px solid var(--main-color-3);        
+}
+
+.start-screen .info-box h3{
+    border-bottom: 1px solid rgb(15, 13, 13);
+    padding: 0 35px 20px;
+    font-size: 29px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom:  12px;    
+}
+
+.start-screen .info-box p{   
+    font-size: 20px;
+    font-weight: 200;
+    padding: 5px;
+}
+
+/* Styling for the start button */
+#start-button{
+    transition: all 0.2s ease; 
+    margin-top: 5%;
+    margin-left: 35%;
+}
+
+#start-button:active{
+    transform: scale(1.1);
+} 
+
+/* Styling for the quiz app container */
+.app{
+    border: 2px solid white;
+    background: white;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 80px;
+    border-radius: 10px;
+    padding: 30px; 
+}
+
+/* Styling for the quiz app header */
+.app header .topic{
+    font-size:20px;
+    font-weight:600;
+}
+
+.app header{
+    height:60px;
+    color: #fff;
+    position:relative;
+    z-index:99;
+    padding:0 20px;
+    background:black;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    border-radius:5px 5px 5px 5px;
+    box-shadow:0 3px 5px 1px rgba(0,0,0,0.1);
+}
+
+.app .time{
+    color: #000;
+    align-items:center;
+    background:white;
+    width:125px;
+    height:40px;
+    border-radius:10px;
+    padding:9px 0 8px 20px;
+    border:1px solid #bad8ff;
+}
+
+/* Styling for the timer text */
+.app .time .text{
+    font-size:14px;
+    font-weight:400;
+    user-select:none;
+}
+
+/* Styling for the quiz questions */
+.quiz h2{
+    padding-top: 8px;
+    font-size: 18px;
+    color: black;
+    font-weight: 600;
+}
+
+.app .message{
+    color: cyan;
+}
+
+/* Styling for the answer buttons */
+.ansbtn{
+    color: black;
+    font-weight: 600;
+    font-size: 14px;
+    width: 100%;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 10px;
+    cursor: pointer;
+    transition:  0.6s;
+}
+
+.ansbtn:hover:not([disabled]){
+    background-color: black;
+    color: white;
+}
+
+.ansbtn:disabled{
+    cursor: no-drop;
+}
+
+/* Styling for the "Next" button */
+#next{
+    background: black;
+    color: white;
+    font-weight: 500;
+    width: 100px;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 10px;
+    cursor: pointer;
+    display: none;
+}
+
+.correct{
+    background: rgb(24, 250, 24);
+}
+
+.incorrect{
+    background: rgb(237, 6, 6);
+}
+
+/* Styling for the time taken display */
+#timeTaken{
+    margin-top: 20px;
+    color: var(--main-color-1);
+    text-align: center;
+}
+
+#excellent,#tryHard{
+    margin-top: 20px;
+    text-align: center;
+}
+
+#marks{
+    margin-top: 20px;
+    color: var(--main-color-1);
+    text-align: center;
+}
+
+#message{
+    text-align: center;
+}
+
+.hide{
+    display: none;   
+}

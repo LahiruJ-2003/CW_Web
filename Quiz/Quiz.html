@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="Quiz.css">    
+    <link rel="stylesheet" href="../common.css">
+    <link rel="icon" type="image/x-icon" href="../logo/favicon.ico">
+</head>
+<body>
+    
+    <!-- Navigation Bar -->
+    <header id="main-header">
+        <div id="main-header-logo">
+            <a href="../../student-2/main-page/main.html">
+            <img src="../logo/logo.webp" alt="Mercedes-AMG PETRONAS F1 Team Logo">
+            </a>
+        </div>
+
+        <nav id="nav-bar">
+            <ul>
+                <li><a href="../../student-2/main-page/main.html">HOME</a></li>
+                <li><a href="../../student-1/products/Buy_Products/buyProducts.html">PRODUCTS</a></li>
+                <li><a href="../../student-4/gallery/Gallery.html">GALLERY</a></li>
+                <li><a href="../../student-3/Quiz/Quiz.html">QUIZ</a></li>
+                <li><a href="../../student-2/feedback/feedback.html">FEEDBACK</a></li>
+                <li><a href="../../student-3/AboutUs/AboutUs.html" class="active">ABOUT US</a></li>
+                <li><a href="../../student-4/sitemap/SiteMap.html">SITE MAP</a></li>
+            </ul>
+        </nav>    
+    </header>
+    <br>
+    
+    <!--Start screen-->
+    <div class="start-screen">
+        <div class="info-box">
+            <h3>Rules of this Quiz</h3>
+            <p>1. There are total of <b> 10 questions. </b></p>
+            <p>2. You will have only <b> 60 seconds. </b></p>
+            <p>3. Once you select your answer you can not reselect.</p>
+            <p>4. You can not exit from the quiz once the quiz is started.</p>
+            <p>5. Click on the <b>Start Quiz</b>  button to start the quiz.</p>
+            <!--Start button  -->
+            <button id="start-button" class="button-1">Start Quiz</button>
+        </div>
+    </div>
+    
+    <!-- Question part -->
+    <div class="app" id="display-container">
+        <!-- shows question numbers and timer -->
+        <header id="head">
+            <div class="topic">
+                <span class="question-number"></span>  
+            </div>    
+            <div class="time">
+                <div id="countdown"></div>
+            </div>
+        </header>
+
+        <!-- question part -->
+        <div class="quiz">
+            <h2 id="question">Question here</h2>
+            <div id="message"></div>
+            <div id="marks"></div>
+            
+            <!-- Answer options as buttons -->
+            <div id="answer">
+                <button class="ansbtn">answer 1</button>
+                <button class="ansbtn">answer 2</button>
+                <button class="ansbtn">answer 3</button>
+                <button class="ansbtn">answer 4</button>
+            </div>
+            <div id="timeTaken"></div>
+            <div id="excellent"></div>
+            <div id="tryHard"></div>
+            <button id="next">Next</button>
+        </div>
+    </div>
+        
+    <script src="Quiz.js"></script>
+
+<!-- FOOTER SECTION -->
+<footer >
+    <div class="footer-content">
+        <div class="footer-row">
+            <div class="contact-us">
+                <h3>Contact Us</h3>
+                <ul>
+                    <li>
+                        <i class="fa-solid fa-phone"></i>
+                        &nbsp;&nbsp; +44 1280 844000
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-location-dot"></i> <br>
+                        Operations Centre, <br>Brackley, <br> Northamptonshire NN13 7BD, GB
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-envelope"></i>
+                        &nbsp;&nbsp;enquiries@mercedes-amg-f1.com
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h3>Pages</h3>
+                <ul>
+                    <li><a href="../../student-2/main-page/main.html">Home</a></li>
+                    <li><a href="../../student-1/products/Buy_Products/buyProducts.html">Products</a></li>
+                    <li><a href="../../student-4/gallery/Gallery.html">Gallery</a></li>
+                    <li><a href="../../student-3/Quiz/Quiz.html">Quiz</a></li>
+                    <li><a href="../../student-2/feedback/feedback.html">Feedback</a></li>
+                    <li><a href="../../student-3/AboutUs/AboutUs.html">About Us</a></li>
+                    <li><a href="../../student-4/sitemap/SiteMap.html">Sitemap</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Additional pages</h3>
+                <ul>
+                    <li><a href="../../student-3/ContentPage/w14Car.html">W14 CAR</a></li>
+                    <li><a href="../../student-2/drivers/drivers.html">Drivers</a></li>
+                    <li><a href="../../student-1/Teams/teams.html">Teams</a></li>
+                    <li><a href="../../student-4/facilities/Facilities.html">Facilities</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Page Editors</h3>
+                <ul>
+                    <li><a href="../../student-1/Pageeditor/pageeditor.html">Student-1</a></li>
+                    <li><a href="../../student-2/page-editor/page-editor.html">Student-2</a></li>
+                    <li><a href="../../student-3/PageEditor/PageEditor.html">Student-3</a></li>
+                    <li><a href="../../student-4/pageeditor/pageeditor.html">Student-4</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>follow us</h3>
+                <div class="sm-icons">
+                    <a href="https://www.facebook.com/MercedesAMGF1/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/mercedesamgf1/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/@MercedesAMGF1" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://twitter.com/mercedesamgf1" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.tiktok.com/@mercedesamgf1" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="student-details">
+            <hr>
+            <p>Web Page Designed By <span>Ransara Himaruth</span></p>
+            <p>Role : <a href="../../student-3/PageEditor/PageEditor.html">Student-3</a> </p>
+        </div>
+    </div>
+</footer>
+        
+</body>
+</html>

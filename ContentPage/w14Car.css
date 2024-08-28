@@ -1,0 +1,157 @@
+/* Global CSS for body */
+body{
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+/* Styling for the main image and links section */
+.img img{ 
+    width: 100vw;  
+    background-size: cover;
+    margin-left: -8px;
+    margin-top: -8px;    
+}
+
+.link{
+    padding-bottom: 20px;
+    padding-left: 10%;
+    display: flex;
+    
+}
+.link li{
+    margin-right: 120px;
+}
+
+/* Styling for the second image */
+.img2 img{ 
+    width: 100vw;  
+    background-size: cover;
+    margin-left: -8px;
+    margin-top: -8px;    
+}
+
+.img4 img{
+    margin-top: 30%;
+}
+
+/* Styling for the overall car details section */
+.status{
+    background-color: var(--main-color-3);
+    border-radius: 10px;
+    text-align: center;  
+    margin: 10px auto; 
+    padding-left: 50px;  
+    padding-right: 50px; 
+}
+.details{
+    width: 900px;
+    margin: 10px auto;
+}
+.over{
+    font-size: 50px;
+    color: var(--h1-text-color-1);
+}
+#topic{
+    font-size: 80px;
+    color: var(--main-color-3);
+    text-align: center;
+    padding-top: 100px;
+}
+.details h1{
+    font-size: 50px;
+    color: var(--main-color-3);
+}
+.details2 h1{
+    margin-top: 30%;
+    font-size: 50px;
+    color: var(--main-color-3);
+}
+.details3 h1{
+    margin-top: -30%;
+    font-size: 50px;
+    color: var(--main-color-3); 
+}
+.details4 h1{
+    margin-top: 6%;
+    text-align: center;
+    font-size: 50px;
+    color: var(--main-color-3); 
+}
+.status h1 {
+    
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+/* Styling for the overall grid layout */
+.fullgrid{
+    display: flex;
+    grid-template-columns: 400px 1fr;
+    column-gap: 20px;
+    margin-top: 40px;
+    justify-content: space-between;
+}
+.fullgrid3{
+    padding-right: 20px;
+    padding-left: 20px;
+    display: flex;
+    grid-template-columns: 700px 1fr;
+    column-gap: 20px;
+    margin-top: 40px;
+    justify-content: space-between;
+}
+.fullgrid4{
+    padding-right: 20px;
+    padding-left: 20px;
+    display: flex;
+    grid-template-columns: 600px 1fr;
+    column-gap: 20px;
+    margin-top: 40px;
+    justify-content: space-between;
+}
+
+/* Styling for the content in details section */
+.details p{
+    color: var(--h1-text-color-1);
+    padding-right: 20px;
+    text-align: justify;
+    font-size: larger;
+}
+
+.details2 p{
+    color: var(--h1-text-color-1);
+    text-align: justify;
+    font-size: larger;
+}
+
+.details3 p{
+    padding-right: 120px;
+    color: var(--h1-text-color-1);
+    text-align: justify;
+    font-size: larger;
+}
+
+.details4 p{
+    padding: 0 20px 0 20px;
+    color: var(--h1-text-color-1);
+    text-align: justify;
+    font-size: larger;
+}
+
+/* Styling for the links */
+a{
+    color: var(--main-color-1);
+}
+a:hover{
+    color: var(--main-color-3);  
+}
+.topics ,a {
+    padding-top: 20px;
+    color: var(--main-color-2);
+    z-index: 2;
+}
+
+/* Styling for the "Back to top" link */
+#top{
+    text-align: center;
+}
