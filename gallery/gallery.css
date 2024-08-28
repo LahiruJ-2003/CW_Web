@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    list-style: none;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+
+    min-height: 10vh;
+    background-color: var(--main-color-1);
+    font-size: 17px;
+    position: relative;
+  }
+
+  .header-image {
+    max-width: 100%;
+    display: block;
+  }
+
+  h1,
+  h2 {
+    font-weight: bold;
+    text-decoration: underline;
+    margin: 0;
+    color: var(--main-color-3);
+    text-align: center;
+  }
+
+  h1 {
+    padding-top: 160px;
+  }
+
+  .image-container {
+    position: relative;
+    width: 15%;
+    padding: 15px;
+    box-sizing: border-box;
+  }
+
+  .image-container-wrapper {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .header-image {
+    max-width: 100%;
+    display: block;
+  }
+
+  .image-label {
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+
+  .content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+
+  .buttons-container {
+    position: absolute;
+    top: 100px;
+    right: 20px;
+    display: flex;
+    gap: 10px;
+  }
+
+  /* Add custom styles for the buttons */
+  .buttons-container button {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  /* Specific styles for each button */
+  .moonlight-button {
+    background-color: #22031f;
+    color: #ffffff;
+  }
+
+  .sunrise-button {
+    background-color: #add8e6;
+    color: #000000;
+  }
+
+  .rainbow-button {
+    background-color: #94fbab;
+    color: #000000;
+  }
+
+  .grow-button {
+    background-color: #f2ed67;
+    color: #000000;
+  }
+
+  .shrink-button {
+    background-color: #e67e22;
+    color: #ffffff;
+  }
+
+  /* Hover effect */
+  .buttons-container button:hover {
+    background-color: #555555;
+  }
+
+  .image-container-zoom {
+    transform: scale(1); /* Initial scale (no zoom) */
+    transition: transform 0.5s; /* Smooth transition for the zoom effect */
+  }
+
+  .image-container-zoom:hover {
+    transform: scale(
+      1.2
+    ); /* Adjust the scale value to control the zoom level */
+  }
+
+  .image-label {
+    color: var(--main-color-1);
+  }
+
+  .paragraph-container {
+    background-color: #a7c4a0;
+    padding: 10px;
+    border: 5px solid #000000;
+    border-radius: 5px;
+    text-align: left;
+    font-size: 18px;
+    color: #000000;
+    margin-top: 20px;
+    display: flex; /* Use flexbox for the layout */
+  }
+
+  .box-image {
+    max-width: 200px;
+    max-height: fit-content; /* Adjust image height to its content */
+    border-radius: 5px;
+    margin-right: 20px; /* Add some spacing between the image and paragraphs */
+  }
+
+  h3 {
+    margin: 10px; /* Remove default margins for the heading */
+    color: var(--main-color-1);
+  }

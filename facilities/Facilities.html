@@ -1,0 +1,238 @@
+<!--
+    Name        :     D.C.D.W Gunawardhana
+    Student ID  :     20221891 / w1985637
+    Role        :     Student-4
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../common.css">
+    <link rel="stylesheet" href="../Facilities/facilities.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <title>Facilities Page</title>
+    <link rel="icon" type="image/x-icon" href="../logo/favicon.ico" />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <header id="main-header">
+      <div id="main-header-logo">
+        <a href="../../student-2/main-page/main.html">
+          <img
+            src="../logo/logo.webp"
+            alt="Mercedes-AMG PETRONAS F1 Team Logo"
+          />
+        </a>
+      </div>
+
+      <nav id="nav-bar">
+        <ul>
+          <li><a href="../../student-2/main-page/main.html" class="active">HOME</a></li>
+          <li><a href="../../student-1/products/Buy_Products/buyProducts.html">PRODUCTS</a></li>
+          <li><a href="../../student-4/gallery/Gallery.html">GALLERY</a></li>
+          <li><a href="../../student-3/Quiz/Quiz.html">QUIZ</a></li>
+          <li><a href="../../student-2/feedback/feedback.html">FEEDBACK</a></li>
+          <li><a href="../../student-3/AboutUs/AboutUs.html">ABOUT US</a></li>
+          <li><a href="../../student-4/sitemap/SiteMap.html">SITE MAP</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h1>Facilities:</h1>
+        </div>
+
+        <div class="col">
+          <div class="card card1" onclick="scrollToRaceSupport()">
+            <h4>Race Support</h4>
+          </div>
+
+          <div class="card card2" onclick="scrollToRaceBays()">
+            <h4>Race Bays</h4>
+          </div>
+
+          <div class="card card3" onclick="scrollToManufacturingSection()">
+            <h4>Manufacturing</h4>
+          </div>
+
+          <div class="card card4" onclick="scrollToWindTunnel()">
+            <h4>Wind Tunnel</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="race-support-section" class="additional-details">
+      <h2>Race Support</h2>
+      <p>
+        Mercedes-Benz's Formula One race support is an exemplar of unwavering
+        commitment and technical prowess. As the driving force behind the
+        Mercedes-AMG Petronas Formula One Team, their race support is the
+        backbone of the team's success on the track. From the engineering
+        wizards at the factory to the highly skilled pit crew on race day, the
+        support network ensures every aspect of the racing operation is finely
+        tuned. Their cutting-edge technology, real-time data analysis, and
+        strategic expertise play a pivotal role in maximizing the performance of
+        the Silver Arrows on the Formula One circuits around the world. Whether
+        it's in the pits, on the radio, or in the planning room, Mercedes-Benz's
+        race support tirelessly works together to deliver a seamless and winning
+        performance, securing their position as one of the most dominant forces
+        in modern Formula One history.
+      </p>
+      <img src="../image/Race_Support.jpg" alt="Race Support" />
+    </div>
+
+    <div id="race-bay-section" class="additional-details">
+      <h2>Race Bays</h2>
+      <p>
+        There is where the cars are prepared for their next race and where all
+        the peices of the puzzele fit together. Our highly skilled mechanics
+        assemble the carefully engineered parts in a carefully orchestrated
+        burst of an activity. Returning from a race, the cars are stripped down,
+        serviced,examined and tested to ensure reliability, before being
+        re-aseembled and sent onto their location.
+      </p>
+      <img src="../image/RACE_BAYS.jpg" alt="Race Bays" />
+    </div>
+
+    <div id="manufacturing-section" class="additional-details">
+      <h2>Manufacturing</h2>
+      <p>
+        Our Manufacturing facilities are at the heart of our sites, and the
+        constant all year-round operation. We have the lastest machinery and
+        skilled people to create, inspect and build our precision parts.
+        Wheather it be the buzz of the Machine shop or the inticate details and
+        highly clinical environment to creat ea Omposite parts, each is crafted
+        to the pinicaple of quality and precise specifications to maximise
+        performance.
+      </p>
+      <img src="../image/MANUFACTURING.jpg" alt="Race Support" />
+    </div>
+
+    <div id="wind-tunnel-section" class="additional-details">
+      <h2>Wind Tunnel</h2>
+      <p>
+        The Mercedes-Benz Formula One Wind Tunnel stands as an engineering
+        marvel, embodying cutting-edge aerodynamic technology and precision.
+        This state-of-the-art facility serves as the beating heart of
+        Mercedes-AMG Petronas Formula One Team's pursuit of speed and
+        performance. Meticulously designed to simulate real-world racing
+        conditions, the wind tunnel allows the team to fine-tune their Formula
+        One machines for maximum efficiency and downforce. Its advanced airflow
+        control systems and sophisticated measurement instruments enable
+        engineers to meticulously analyze the car's aerodynamics, enhancing its
+        stability and agility on the track. As an indispensable tool in their
+        quest for championship glory, the Mercedes-Benz Formula One Wind Tunnel
+        represents the team's commitment to pushing the boundaries of innovation
+        and excellence in the world of motorsport.
+      </p>
+      <img src="../image/WIND_TUNNEL.jpg" alt="Race Support"/>
+    </div>
+
+    <!-- FOOTER SECTION -->
+    <footer>
+      <div class="footer-content">
+        <div class="footer-row">
+          <div class="contact-us">
+            <h3>Contact Us</h3>
+            <ul>
+              <li>
+                <i class="fa-solid fa-phone"></i>
+                &nbsp;&nbsp; +44 1280 844000
+              </li>
+              <li>
+                <i class="fa-solid fa-location-dot"></i> <br>
+                Operations Centre, <br>Brackley, <br>
+                Northamptonshire NN13 7BD, GB
+              </li>
+              <li>
+                <i class="fa-solid fa-envelope"></i>
+                &nbsp;&nbsp;enquiries@mercedes-amg-f1.com
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3>Pages</h3>
+            <ul>
+              <li><a href="../../student-2/main-page/main.html">Home</a></li>
+              <li><a href="../../student-1/products/Buy_Products/buyProducts.html">Products</a></li>
+              <li><a href="../../student-4/gallery/Gallery.html">Gallery</a></li>
+              <li><a href="../../student-3/Quiz/Quiz.html">Quiz</a></li>
+              <li><a href="../../student-2/feedback/feedback.html">Feedback</a></li>
+              <li><a href="../../student-3/AboutUs/AboutUs.html">About Us</a></li>
+              <li><a href="../../student-4/sitemap/SiteMap.html">Sitemap</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3>Additional pages</h3>
+            <ul>
+              <li><a href="../../student-3/ContentPage/w14Car.html">W14 CAR</a></li>
+              <li><a href="../../student-2/drivers/drivers.html">Drivers</a></li>
+              <li><a href="../../student-1/Teams/teams.html">Teams</a></li>
+              <li>
+                <a href="../../student-4/facilities/Facilities.html">Facilities</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3>Page Editors</h3>
+            <ul>
+              <li>
+                <a href="../../student-1/Pageeditor/pageeditor.html">Student-1</a>
+              </li>
+              <li>
+                <a href="../../student-2/page-editor/page-editor.html">Student-2</a>
+              </li>
+              <li>
+                <a href="../../student-3/PageEditor/PageEditor.html">Student-3</a>
+              </li>
+              <li>
+                <a href="../../student-4/pageeditor/pageeditor.html">Student-4</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3>follow us</h3>
+            <div class="sm-icons">
+              <a href="https://www.facebook.com/MercedesAMGF1/" target="_blank"
+                ><i class="fa-brands fa-facebook-f"></i
+              ></a>
+              <a href="https://www.instagram.com/mercedesamgf1/" target="_blank"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="https://www.youtube.com/@MercedesAMGF1" target="_blank"
+                ><i class="fa-brands fa-youtube"></i
+              ></a>
+              <a href="https://twitter.com/mercedesamgf1" target="_blank"
+                ><i class="fa-brands fa-twitter"></i
+              ></a>
+              <a href="https://www.tiktok.com/@mercedesamgf1" target="_blank"
+                ><i class="fa-brands fa-tiktok"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="student-details">
+          <hr>
+          <br>
+          <p>Web Page Designed By <span>Disaru Gunawardhana</span></p>
+          <br>
+          <p>
+            Role :
+            <a href="../../student-4/pageeditor/pageeditor.html">Student-4</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="../facilities/facilities.js"></script>
+
+  </body>
+</html>
